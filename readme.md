@@ -11,7 +11,7 @@ This Project uses the JWT Authentication. Below are the Rest Endpoints.
 
 <h2>Rest Endpoints:</h2> (Use POSTMAN plugin or any RestClient to hit the Endpoints)
 
-For instance consider baseUrl = http://localhost:3000<br/>
+For instance consider <b>baseUrl = http://localhost:3000 </b><br/>
 <b>1) baseUrl/api/register - post request</b><br/>
 
 <b>headers: </b><br/>
