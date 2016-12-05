@@ -11,21 +11,21 @@ This Project uses the JWT Authentication. Below are the Rest Endpoints.
 
 <h2>Rest Endpoints:</h2> (Use POSTMAN plugin or any RestClient to hit the Endpoints)
 
-For instance consider baseUrl = http://localhost:3000
-<b>1) baseUrl/api/register - post request</b>
+For instance consider baseUrl = http://localhost:3000<br/>
+<b>1) baseUrl/api/register - post request</b><br/>
 
-<b>headers: </b>
+<b>headers: </b><br/>
+Content-Type : application/x-www-form-urlencoded<br/>
+
+add email and password in the body<br/>
+
+<b>2) baseUrl/api/authenticate- post request</b><br/>
+email and password<br/>
+gets a token in response<br/>
+
+<b>headers: </b><br/>
 Content-Type : application/x-www-form-urlencoded
 
-add email and password in the body
-
-<b>2) baseUrl/api/authenticate- post request</b>
-email and password
-gets a token in response
-
-<b>headers: </b>
-Content-Type : application/x-www-form-urlencoded
-
-<b>3) baseUrl/api/dashboard - get request </b>
-<b>headers:</b>
+<b>3) baseUrl/api/dashboard - get request </b><br/>
+<b>headers:</b><br/>
 Authorization : <<token>> <-- place the response token got in step 2.
