@@ -3,11 +3,11 @@
 This Project uses the JWT Authentication. Below are the Rest Endpoints.
 
 <h2>Steps to import the project:</h2>
-<li>
-<ul>Enter into the project NodeJSJWTAuth from commandline</ul>
-<ul>Run <b>npm install</b> . Install node packages.</ul>
-<ul>Run <b>node main.js</b></ul>
-</li>
+<ul>
+<li>Enter into the project NodeJSJWTAuth from commandline</li>
+<li>Run <b>npm install</b> . Install node packages.</li>
+<li>Run <b>node main.js</b></li>
+</ul>
 
 <h2>Rest Endpoints:</h2> (Use POSTMAN plugin or any RestClient to hit the Endpoints)
 
