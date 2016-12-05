@@ -1,20 +1,21 @@
-JsonWebToken Architecture:
+<h1>JsonWebToken Architecture:</h1>
 
 This project contains the jwt authentication. below are the endpoints
 
-1)api/register - post request
+<b>1)api/register - post request</b>
 
-headers: 
+<b>headers: </b>
 Content-Type : application/x-www-form-urlencoded
 
 add email and password in the body
 
-2)api/authenticate- post request
+<b>2)api/authenticate- post request</b>
 email and password
 gets a token in response
 
-headers: 
+<b>headers: </b>
 Content-Type : application/x-www-form-urlencoded
 
-3)api/dashboard - get request
-headers --> Authorization : token
+<b>3)api/dashboard - get request </b>
+<b>headers:</b>
+Authorization : token
